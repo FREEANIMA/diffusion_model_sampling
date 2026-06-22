@@ -30,18 +30,22 @@ sampler = Sampling(
     dtype          = config.dtype,
 )
 
-prompt = "1girl, blue hair, school uniform, smile, blue eyes, looking at viewer, detailed face"
+prompt    = input("prompt : ").strip() or "1girl, red hair, school uniform, happy, red eyes, open mouth, detailed face"
+steps     = int(input("steps (default 100) : ").strip() or 100)
+cfg_scale = float(input("cfg_scale (default 2.0) : ").strip() or 2.0)
+seed_in   = input("seed (default 1234) : ").strip()
+seed      = int(seed_in) if seed_in else 1234
 
 logs, image, _, _ = sampler.generate_sampler(
-    steps        = 100,
+    steps        = steps,
     prompt       = prompt,
-    h            = config.target_size_H,
-    w            = config.target_size_W,
+    h            = 512,
+    w            = 512,
     max_text_len = config.max_text_len,
-    cfg_scale    = 2.0,
+    cfg_scale    = cfg_scale,
     sigma_start  = 0.999,
     sigma_end    = 0.001,
-    seed         = 1234,
+    seed         = seed,
 )
 
 from torchvision.utils import save_image
