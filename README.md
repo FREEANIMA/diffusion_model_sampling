@@ -13,6 +13,12 @@ This project is for **research purposes only**.
 This project is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  
 For research and non-commercial use only.
 
+## Training Status
+
+- **Total Dataset**: ~4.8M anime images
+- **Processed**: ~1.8M images (epoch 0, ongoing)
+- Samples below are intermediate checkpoints — quality will improve as training continues.
+
 ## Samples
 
 ```
