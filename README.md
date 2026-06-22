@@ -13,7 +13,7 @@ seed      = 1234
 ```
 | 1k steps | 10k steps | 50k steps | 100k steps |
 |---|---|---|---|
-| ![1k](assets/1k.png) | ![50k](assets/50k.png) | ![50k](assets/50k.png) | ![100k](assets/100k.png) |
+| ![1k](assets/1k.png) | ![50k](assets/50k.png) | ![100k](assets/100k.png) | ![150k](assets/150k.png) |
 
 ## Model Architecture
 
