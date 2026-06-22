@@ -21,17 +21,21 @@ For research and non-commercial use only.
 - **Throughput**: ~1.3 it/s
 - Samples below are intermediate checkpoints — quality will improve as training continues.
 
-## Samples
+## Training & Samples
+
+Train View 
+| 12k images | 600k images | 1.2M images | 1.8M images |
+|---|---|---|---|
+| ![1k](assets/1k.png) | ![50k](assets/50k.png) | ![100k](assets/100k.png) | ![150k](assets/150k.png) |
+
 
 ```
+# sampler conditional
 prompt    = "1girl, red hair, school uniform, happy, red eyes, open mouth, detailed face"
 steps     = 100
 cfg_scale = 2.0
 seed      = 1234
 ```
-| 1k steps | 50k steps | 100k steps | 150k steps |
-|---|---|---|---|
-| ![1k](assets/1k.png) | ![50k](assets/50k.png) | ![100k](assets/100k.png) | ![150k](assets/150k.png) |
 
 ## Model Architecture
 
