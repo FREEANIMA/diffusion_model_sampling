@@ -3,6 +3,11 @@
 A flow matching-based diffusion transformer for anime image generation.  
 This project is for **research purposes only**.
 
+## License
+
+This project is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  
+For research and non-commercial use only.
+
 ## Samples
 
 ```
