@@ -23,7 +23,6 @@ For research and non-commercial use only.
 
 ## Training & Samples
 
-Train View 
 | 12k images | 600k images | 1.2M images | 1.8M images |
 |---|---|---|---|
 | ![1k](assets/1k.png) | ![50k](assets/50k.png) | ![100k](assets/100k.png) | ![150k](assets/150k.png) |
