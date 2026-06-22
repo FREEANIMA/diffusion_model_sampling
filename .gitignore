@@ -1,0 +1,26 @@
+# 데이터
+data/
+
+# 웨이트
+weights/*
+
+# 파이썬
+__pycache__/
+*.pyc
+*.pyo
+
+# 환경
+.env
+venv/
+
+# 에디터
+.vscode/
+.idea/
+
+# 임시
+*.tmp
+output.png
+
+app/train.py
+app/dataloader.py
+app/setup_training_env.py

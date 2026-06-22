@@ -1,0 +1,20 @@
+{
+    "weight_decay": 0.01,
+    "max_lr": 8e-5,
+    "min_lr": 1e-5,
+    "warmup_steps": 10000,
+    "d_model": 1024,
+    "nhead": 16,
+    "num_layers": 24,
+    "dropout": 0.0,
+    "patch_size": 2,
+    "in_channels": 4,
+    "sigma_emb_hz": 10000,
+    "rope_hz": 10000,
+    "batch_size": 12,
+    "target_size_H": 512,
+    "target_size_W": 512,
+    "text_dim": 1024,
+    "max_text_len": 77,
+    "drop_prob": 0.1
+}
