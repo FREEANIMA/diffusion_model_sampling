@@ -27,7 +27,6 @@ For research and non-commercial use only.
 |---|---|---|---|
 | ![1k](assets/1k.png) | ![50k](assets/50k.png) | ![100k](assets/100k.png) | ![150k](assets/150k.png) |
 
-
 ```
 # sampler conditional
 prompt    = "1girl, red hair, school uniform, happy, red eyes, open mouth, detailed face"
@@ -41,6 +40,9 @@ seed      = 1234
 - **Backbone**: Diffusion Transformer (DiT) with adaLN modulation
 - **Parameters**: ~550M
 - **Framework**: Flow Matching (velocity prediction)
+
+[architecture](assets/model.png)
+
 
 ## Components
 
