@@ -41,7 +41,7 @@ seed      = 1234
 - **Parameters**: ~550M
 - **Framework**: Flow Matching (velocity prediction)
 
-[architecture](assets/model.png)
+![architecture](assets/model.png)
 
 
 ## Components
